@@ -1,0 +1,21 @@
+req url:
+http://x.x.x.x:8080/job/pipeline_test_ming/buildWithParameters
+
+Headers:
+Jenkins-Crumb: ed6a792112e4f180c672b48fcda8f7e0d4cf0890fc88519eeebe59521399
+Content-Type: application/x-www-form-urlencoded
+content-type: multipart/form-data
+
+bodys:
+{
+  "parameter": [
+    {
+      "name": "path",
+      "value": "/bigdisk/jenkins/nfvi_pipeline/python_module"
+    },
+    {
+      "name": "service_id",
+      "value": "d9eaba30-ff7c-11eb-bb4f-6c92bff6a368"
+    }
+  ]
+}
